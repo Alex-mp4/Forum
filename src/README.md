@@ -9,3 +9,7 @@ Forumet ska kunna ta information från databasen och göra en snarlik (typ) vers
 4. Genererade kod i view
 
 Jag tror att jag kan lista ut vad som pågår, men vi lär ju märka.
+
+#### 2023-03-30:
+1. Controller init.
+2. Model init.

@@ -7,12 +7,11 @@ public class view {
     private JPanel panel1;
     private JButton loginButton;
     private JButton newPostButton;
+    private JList list1;
 
-    public view(JTextArea textArea1, JPanel panel1, JButton loginButton, JButton newPostButton) {
-        this.textArea1 = textArea1;
-        this.panel1 = panel1;
-        this.loginButton = loginButton;
-        this.newPostButton = newPostButton;
+
+    public JPanel getPanel() {
+        return panel1;
     }
 
     public JTextArea getTextArea1() {
@@ -21,10 +20,6 @@ public class view {
 
     public void setTextArea1(JTextArea textArea1) {
         this.textArea1 = textArea1;
-    }
-
-    public JPanel getPanel1() {
-        return panel1;
     }
 
     public void setPanel1(JPanel panel1) {
@@ -45,5 +40,13 @@ public class view {
 
     public void setNewPostButton(JButton newPostButton) {
         this.newPostButton = newPostButton;
+    }
+
+    public JList getList1() {
+        return list1;
+    }
+
+    public void setList1(JList list1) {
+        this.list1 = list1;
     }
 }
