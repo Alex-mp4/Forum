@@ -49,4 +49,8 @@ public class view {
     public void setList1(JList list1) {
         this.list1 = list1;
     }
+
+    public void setMessage(String c) {
+        textArea1.setText(c);
+    }
 }

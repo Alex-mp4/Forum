@@ -13,3 +13,8 @@ Jag tror att jag kan lista ut vad som pågår, men vi lär ju märka.
 #### 2023-03-30:
 1. Controller init.
 2. Model init.
+
+#### 2023-03-31:
+1. MVC är kopplad
+2. Forumet finns på view
+3. Controller och model fixar så att man "loggar in" på forumet
